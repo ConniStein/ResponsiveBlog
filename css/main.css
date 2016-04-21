@@ -1,5 +1,85 @@
 /* Inserta tu codigo aqui */
 
+/*BODY TAGS*/
+
+img{
+	max-width: 100%;
+}
+
+*{
+	background-color: #3c3547;
+}
+
+.container-big{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+
+/*BACKGROUND COLORS AND TEXT COLORS*/
+.bg-purple{
+	background-color: #3c3547;
+}
+
+.bg-darkpurple{
+	background-color: #28232f;
+}
+
+.text-white{
+	color:#FFF;
+}
+
+.text-gray{
+	color:#878787;
+}
+
+/*HEADER*/
+
+header{
+	border:1px solid transparent;
+}
+
+.logo{
+	width: 50%;
+	height: 50%;
+	padding-left: 80px;
+	border:1px solid transparent;
+}
+
+.menu-header{
+	list-style: none;
+	font-style: italic;
+}
+
+.menu-lista{
+	display: inline-block;
+	padding: 20px 10px 20px 0px;
+}
+
+/*BANNER*/
+.banner{
+	background-image: url(../image/header-image.jpg);
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+}
+
+.caja-spring{
+	height: 200px;
+	width: 300px;
+}
+
+.menu-spring{
+	list-style: none;
+}
+
+.lista-spring{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+
+
 /* Responsive */
 
 @media screen and (max-width : 920px) {

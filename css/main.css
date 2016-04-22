@@ -7,7 +7,8 @@ img{
 }
 
 *{
-	background-color: #3c3547;
+	/*background-color: #3c3547;*/
+	font-family: Arial;
 }
 
 .container-big{
@@ -31,6 +32,16 @@ img{
 
 .text-gray{
 	color:#878787;
+}
+
+.text-yellow{
+	font-family: Courgette;
+	color:#dda31a;
+}
+
+.text-courgette{
+	font-family: Courgette;
+	color:#FFF;
 }
 
 /*HEADER*/
@@ -62,11 +73,13 @@ header{
 	height: 300px;
 	width: 100%;
 	background-size: cover;
+	margin-bottom: 20px;
 }
 
 .caja-spring{
 	height: 200px;
 	width: 300px;
+	margin-left: 50px;
 }
 
 .menu-spring{
@@ -76,6 +89,19 @@ header{
 .lista-spring{
 	display: inline-block;
 	padding-right: 20px;
+}
+
+/*"FLOWERS" SECTION*/
+
+.flores{
+	max-width: 100%;
+	border:1px solid transparent;
+}
+
+.img-flores{
+	width: 300px;
+	margin-right: 10px;
+	border:1px solid transparent;
 }
 
 
